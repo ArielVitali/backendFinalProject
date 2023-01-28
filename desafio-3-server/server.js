@@ -8,7 +8,7 @@ const app = express();
 
 // Configuro las rutas
 app.get("/", (req, res) => {
-  res.send(`<h1>Hola tutor, el servidor esta funcionando</h1>`);
+  res.send(`<h1>El servidor esta funcionando...</h1>`);
 });
 
 // Ruta de productos
